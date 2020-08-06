@@ -1,9 +1,12 @@
 'use-strict'
 
-function sum(numbers) { 
-    return numbers.reduce((a,b) => {
-        return a + b
-    })
-}
+var React = require('react')
+var createReactClass = require('create-react-class');
 
-module.exports = sum
+var Title = createReactClass({
+    render: function () {
+        return React.createElement('h1', null, 'Titulo')
+    }
+})
+
+module.exports = Title

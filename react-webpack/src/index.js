@@ -1,6 +1,11 @@
 'use-strict'
 
-var sum = require('./app')
+var React = require('react')
+var ReactDom = require('react-dom')
 
-console.log(sum([1,2,5,10]))
-console.log('Arquivo funcionando perfeitamente')
+var Title = require('./app')
+
+ReactDom.render(
+    React.createElement(Title),
+    document.querySelector('[data-js="app"]')
+)
