@@ -11,7 +11,7 @@ const renderApp = (NextApp) => {
     document.querySelector('[data-js="app"]'),
   );
 };
-  
+
 renderApp(App);
 
 if (module.hot) {
