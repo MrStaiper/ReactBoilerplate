@@ -1,8 +1,8 @@
 {
   "scripts": {
     "start": "npm run lint & node server.js",
-    "precommit": "npm run lint && npm test",
-    "prepush": "npm run lint && npm test",
+    "precommit": "npm run lint & npm test",
+    "prepush": "npm run lint & npm test",
     "lint": "eslint ./src/*.js",
     "lint:fix": "eslint --fix ./src/index.js",
     "test": "..."
