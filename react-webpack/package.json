@@ -7,6 +7,12 @@
     "lint:fix": "eslint --fix ./src/index.js",
     "test": "..."
   },
+  "lint-staged": {
+    "*.{js,json,css,scss,html,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "devDependencies": {
     "@babel/polyfill": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
