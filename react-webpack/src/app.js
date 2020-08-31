@@ -3,7 +3,7 @@ import CreateReactClass from 'create-react-class';
 
 const App = CreateReactClass({
   render() {
-    return <div> Aplicação </div>;
+    return <div> </div>;
   },
 });
 
