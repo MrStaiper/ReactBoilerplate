@@ -1,1 +1,1 @@
-# ReactNinja
+# BoilerPlate
