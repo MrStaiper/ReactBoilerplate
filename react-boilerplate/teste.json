@@ -17,8 +17,6 @@
         "mocha":   true
     },
     "extends": [
-        // "eslint:recommended",
-        // "plugin:react/recommended",
         "airbnb"
     ],
     "rules": {
